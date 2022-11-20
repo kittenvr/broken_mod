@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "tradebot",
+  "version": "${version}",
+
+  "name": "Trading Bot",
+  "description": "Credits: LiveOverflow, just copied his code.",
+  "authors": [
+    "Pizzaverrylekker"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/watch?v=e37IMIwB5BE",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/tradebot/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pizzav.tradebot.TradeBot"
+    ]
+  },
+  "mixins": [
+    "com.pizzav.tradebot.mixins.json"
+  ],
+
+  "depends": {
+    "fabric-loader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
