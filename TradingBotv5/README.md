@@ -1,9 +1,3 @@
-# Fabric Example Mod
+just fork and pull request with fix
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+or ping Maxime#1813 if u have questions and stuff or want to send fix there for some reason
